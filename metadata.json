@@ -1,0 +1,6 @@
+{
+  "name": "Dilip Yadav",
+  "description": "दिलीप यादव (Dilip Yadav) - दूध बिक्री, खरीद, ग्राहक खाता, दैनिक एंट्री और व्हाट्सएप बिलिंग ऐप",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

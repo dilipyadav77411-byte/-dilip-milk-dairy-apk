@@ -1,0 +1,20 @@
+Dilip Milk Dairy - मोबाइल से APK बनाने का तरीका
+
+1. GitHub पर अपना अकाउंट बनाएं/लॉगिन करें: https://github.com
+2. + दबाएं > New repository. नाम रखें dilip-milk-dairy-apk. Private चुन सकते हैं.
+3. Create repository करें.
+4. Add file > Upload files दबाएं.
+5. इस ZIP को पहले फोन में Extract करें. फिर Extract हुए फोल्डर के अंदर की सभी फाइलें और .github फोल्डर सहित GitHub पर अपलोड करें. ZIP को सीधे repository में डालना पर्याप्त नहीं है.
+6. Commit changes दबाएं.
+7. Repository में Actions टैब खोलें.
+8. Build Dilip Milk Dairy APK workflow चुनें.
+9. Run workflow > Run workflow दबाएं.
+10. Build पूरा होने पर उसी workflow run के नीचे Artifacts में Dilip-Milk-Dairy-APK डाउनलोड करें.
+11. ZIP artifact को फोन में Extract करें. app-debug.apk खोलकर Install करें. Android पूछे तो Chrome/Files के लिए Install unknown apps अनुमति दें.
+
+ध्यान:
+- यह Debug APK है; आपके अपने फोन पर sideload/install करने के लिए है.
+- APK बनाने के लिए GitHub Actions कोड को cloud में build करेगा; फोन में Android Studio की जरूरत नहीं.
+- पहले इंस्टॉल से पहले अपने पुराने डेयरी डेटा का Backup जरूर लें.
+- इस ZIP में Android build workflow जोड़ा गया है; APK अभी बना हुआ नहीं है.
+- Google AI Studio की API key या कोई secret GitHub पर अपलोड न करें. अगर ऐप को secret API key चाहिए, तो सुरक्षित backend की जरूरत होगी.

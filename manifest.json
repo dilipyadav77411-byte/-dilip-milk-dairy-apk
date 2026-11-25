@@ -1,0 +1,110 @@
+{
+  "id": "/",
+  "name": "दिलीप यादव - Dilip Yadav",
+  "short_name": "दिलीप यादव",
+  "description": "दिलीप यादव - दूध बिक्री, खरीद, दैनिक एंट्री, ग्राहक खाता और बिलिंग ऐप",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1e40af",
+  "theme_color": "#1e40af",
+  "lang": "hi",
+  "dir": "ltr",
+  "categories": [
+    "business",
+    "finance",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "दिलीप यादव - दूध बिक्री एवं खरीद डैशबोर्ड"
+    },
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "ग्राहक खाता एवं रिपोर्ट प्रबंधन"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "दूध बिक्री एंट्री",
+      "short_name": "दूध बिक्री",
+      "description": "दैनिक दूध बिक्री की तुरंत एंट्री करें",
+      "url": "/#sales",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "दूध खरीद एंट्री",
+      "short_name": "दूध खरीद",
+      "description": "दूध संकलन और खरीद की एंट्री करें",
+      "url": "/#purchase",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "ग्राहक खाता (Ledger)",
+      "short_name": "ग्राहक खाता",
+      "description": "ग्राहकों का पुराना बकाया और बिल देखें",
+      "url": "/#customers",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
